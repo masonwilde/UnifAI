@@ -1,5 +1,7 @@
 # UnifAI
 
+## WIP - This is a work in progress. It's not ready for serious use yet.
+
 LICENSE PENDING: I need to figure out which license satisfies the requirements of the various libraries used. The intent is for this to be as open as possible, but I'm not a lawyer and I don't want to get sued.
 
 A python library and webUI to wrap a few common "AI" tools into a single "agent".
