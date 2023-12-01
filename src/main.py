@@ -18,7 +18,10 @@ def main():
     while True:
         prompt = input("Prompt: ")
         # TODO: Hacky as all hell. Fix this.
-        if prompt.startswith("img"):
+        if prompt == "exit":
+            print("Exiting...")
+            break
+        elif prompt.startswith("img"):
             print(my_agent.prompt_tti(prompt[3:]))
         else:
             print(my_agent.prompt_ttt(prompt))
