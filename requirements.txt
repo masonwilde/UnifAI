@@ -1,2 +1,9 @@
+# GPT4all Deps
 langchain
 gpt4all
+
+# Stable Diffusion Deps (Subject to be wonky)
+torch
+diffusers
+transformers
+accelerate

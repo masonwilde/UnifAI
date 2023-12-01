@@ -1,5 +1,5 @@
 import text_to_text.gpt4all as ttt
-import text_to_image as tti
+import text_to_image.stable_diffusion_wrapper as tti
 import text_to_speech as tts
 
 
@@ -27,7 +27,8 @@ class Agent:
     def prompt_tti(self, prompt):
         if not self.config.enable_text_to_image:
             raise Exception("Text to image is not enabled.")
-        return self.tti.prompt(prompt)
+        img = self.tti.prompt(prompt)
+        img.show()
 
     def prompt_tts(self, prompt):
         if not self.config.enable_text_to_speech:
