@@ -9,6 +9,7 @@ The focus will be be to run as much as possible locally, but allow API usage for
 ## Technologies Used (credits)
 Many thanks to the creators of the following technologies who make the relatively easy part of combining them into a single agent possible.
 * text-to-text - [Cerebras LLM](https://github.com/Cerebras/modelzoo) - Apache 2.0
+* text-to-text - [GPT4all](https://github.com/nomic-ai/gpt4all) - MIT
 * text/img-to-img - [Stable Diffusion](https://github.com/CompVis/stable-diffusion) - CreativeML Open RAIL-M
 * text-to-speech - [Tortoise-TTS](https://github.com/neonbjb/tortoise-tts) - Apache 2.0
 * [Python 3.11.x](https://www.python.org/)
@@ -21,3 +22,5 @@ Many thanks to the creators of the following technologies who make the relativel
 * [ ] Wrap a local StableDiffusion/Midjourney install for text-to-image generation.
 * [ ] Wrap a local Grad-TTS install for text-to-audio generation.
 * [ ] Combine the above into a single agent.
+
+## Learning Resources Used
