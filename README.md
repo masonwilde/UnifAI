@@ -1,6 +1,6 @@
 # UnifAI
 
-A python library to wrap a few common "AI" tools into a single "agent".
+A python library and webUI to wrap a few common "AI" tools into a single "agent".
 
 The goal is to be able to easily create a single agent that can be used to interact with various popular "AI" tools.
 
